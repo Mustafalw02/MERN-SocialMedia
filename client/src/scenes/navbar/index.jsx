@@ -9,6 +9,7 @@ import {
   FormControl,
   useTheme,
   useMediaQuery,
+  Divider,
 } from "@mui/material";
 import {
   Search,
@@ -171,7 +172,7 @@ const Navbar = () => {
                   <LightMode sx={{ color: dark, fontSize: "25px" }} />
                 )}
               </IconButton>
-            </Box>
+            </Box>            
             <Box
               display={"flex"}
               justifyContent={"center"}
