@@ -25,7 +25,7 @@ export const register = async (req, res) => {
             email,
             password: passwordHash,
             picturePath,
-            friends,
+            friends:[],
             location,
             occupation,
             viewedProfile: Math.floor(Math.random() * 1000), // random value to simplify the project
