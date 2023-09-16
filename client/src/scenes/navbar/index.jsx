@@ -9,7 +9,6 @@ import {
   FormControl,
   useTheme,
   useMediaQuery,
-  Divider,
 } from "@mui/material";
 import {
   Search,
